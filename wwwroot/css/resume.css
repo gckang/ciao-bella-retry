@@ -26,3 +26,34 @@ p {
 .margin1 {
     padding-left: 5%;
 }
+
+img:hover {
+    transform: scale(1.3);
+}
+
+@keyframes updown {
+    0% {
+        top: 10px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    100% {
+        top: 10px;
+    }
+}
+
+.backdiv {
+    position: relative;
+    transition: transform 0.5s ease;
+    height: 5vw;
+}
+
+    .backdiv:hover {
+        animation-name: updown;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
