@@ -1,0 +1,49 @@
+﻿h1 {
+    font-family: callie;
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: callie;
+    font-size: 2vw;
+}
+
+input[type="checkbox"] {
+    content: url('../images/eepykitty');
+    appearance: none;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+input[type="checkbox"]:checked {
+    content: url('../images/purrger');
+}
+
+@keyframes updown {
+    0% {
+        top: 10px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    100% {
+        top: 10px;
+    }
+}
+
+.backdiv {
+    position: relative;
+    transition: transform 0.5s ease;
+    height: 5vw;
+}
+
+.backdiv:hover {
+    animation-name: updown;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform: scale(1.3);
+}
