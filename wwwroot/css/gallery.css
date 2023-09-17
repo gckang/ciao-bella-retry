@@ -18,14 +18,18 @@ html, body {
     background-attachment: fixed;
     background-size: cover;
     background-image: url('/images/header.jfif');
+    margin-top:-2%;
 }
 
 .title {
     text-align: center;
     font-family: callie;
-    font-size: 7vw;
+    font-size: 8vw;
     position: sticky;
-    color:white;
+    color: white;
+    text-shadow: -1px 1px 2px #000, 1px 2px 6px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .long_bar {

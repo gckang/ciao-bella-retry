@@ -12,14 +12,14 @@ input[type="checkbox"] {
     content: url('../images/pop-close-yawn.jpg');
     appearance: none;
     display: block;
-    width: 30vw;
-    height: 30vw;
+    width: 30%;
+    height: auto;
 }
 
 input[type="checkbox"]:checked {
     content: url('../images/pop-open-yawn.jpg');
-    width: 30vw;
-    height: 30vw;
+    width: 30%;
+    height: auto;
 }
 
 @keyframes updown {
