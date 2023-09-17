@@ -1,0 +1,78 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: callie;
+    text-align: center;
+    padding-top: 0;
+}
+
+.main_top {
+    z-index: 1;
+    background-color: red;
+}
+
+.background_section {
+    width: 100vw;
+    height: 70vw;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('/images/small-box.jpg');
+}
+
+.title {
+    text-align: center;
+    font-family: callie;
+    font-size: 7vw;
+    position: sticky;
+}
+
+.long_bar {
+    height: 2px;
+    width: 100vw;
+    background-color: black;
+}
+
+.subtitle {
+    font-size: 3vw;
+}
+
+.img-container {
+}
+
+.banner_image {
+    width: 70vw;
+    height: auto;
+}
+
+.gallery_image {
+    width: 20vw;
+    height: auto;
+}
+
+.img-grid {
+    width: 70vw;
+    --gap: 20px;
+    --num-cols: 3;
+    --row-height: 20;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+img {
+    transition: transform .2s;
+}
+
+.img-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,28 @@
+﻿h1 {
+    font-family: callie;
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: callie;
+    font-size: 2vw;
+}
+
+.page {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+h3 {
+    font-family: callie;
+    font-size: 1.75vw;
+}
+
+p {
+    font-family: callie;
+    font-size: 1vw;
+}
+
+.margin1 {
+    padding-left: 5%;
+}

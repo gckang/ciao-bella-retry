@@ -1,0 +1,98 @@
+﻿
+html, body {
+    font-family: callie;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.img_container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+.h1 {
+    font-family: callie;
+    margin: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.title {
+    left: 50vw;
+    font-family: callie;
+    font-size: 7vw;
+}
+
+.subtitle {
+    font-size: 3vw;
+}
+
+.text {
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(24%, 24%));
+    gap: 0px;
+    margin-bottom: 3vw;
+}
+
+@keyframes updown {
+    0% {
+        top: 10px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    100% {
+        top: 10px;
+    }
+}
+
+.figure {
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+    .figure:hover {
+        animation-name: updown;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+.icon {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 2vw;
+}
+
+.banner_image {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+    .banner_image > img {
+        display: block;
+        width: 100%;
+    }
