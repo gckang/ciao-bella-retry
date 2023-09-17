@@ -27,6 +27,15 @@ p {
     padding-left: 5%;
 }
 
+.hacker {
+    background: #E8DFD7;
+    border-radius: 5vw;
+    padding: 20px;
+    width: 30vw;
+    height: 10vw;
+    margin: 2vw;
+}
+
 img:hover {
     transform: scale(1.3);
 }
