@@ -1,12 +1,15 @@
 ﻿@page "/counter"
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Pop Cat!</PageTitle>
+<link rel="stylesheet" href="css/counter.css" />
 
-<h1>Counter</h1>
+<center>
+    <h1>Pop Cat!</h1>
 
-<p role="status">Current count: @currentCount</p>
+    <p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <input type="checkbox" @onclick="IncrementCount" />
+</center>
 
 @code {
     private int currentCount = 0;
@@ -16,3 +19,9 @@
         currentCount++;
     }
 }
+
+<center>
+    <a class="backdiv" href="/">
+        <img class="back" src="images/back_key.PNG" alt="back" />
+    </a>
+</center>
