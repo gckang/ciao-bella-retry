@@ -49,3 +49,8 @@ input[type="checkbox"]:checked {
     animation-iteration-count: infinite;
     transform: scale(1.3);
 }
+
+.back {
+    width: 35vw;
+    height: 10vw;
+}
