@@ -9,7 +9,7 @@ h2 {
 }
 
 input[type="checkbox"] {
-    content: url('../images/eepykitty');
+    content: url('../images/pop-close-yawn.jpg');
     appearance: none;
     display: block;
     width: 150px;
@@ -17,7 +17,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-    content: url('../images/purrger');
+    content: url('../images/pop-open-yawn.jpg');
 }
 
 @keyframes updown {
